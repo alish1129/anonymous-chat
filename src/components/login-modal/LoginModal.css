@@ -1,0 +1,59 @@
+video {
+    width: 40vw !important;
+    margin: auto;
+    display: block;
+}
+
+.main {
+    position: relative;
+    background-color: #111111;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+
+
+.form-options {
+    margin: auto;
+    display: block;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: 16px;
+}
+
+.col {
+    flex-basis: auto;
+    padding: 10px;
+}
+
+.local-preview {
+    margin: auto;
+}
+
+.login-container {
+    background-color: #303030;
+    padding: 30px;
+    margin: auto;
+    vertical-align: middle;
+    display: table-cell;
+
+}
+
+.start-button-container {
+    display: block;
+    margin: auto;
+}
+
+.muted-mic {
+    color: red;
+}
+
+.unmuted-mic {
+    color: green
+}
