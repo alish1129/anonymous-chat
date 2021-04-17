@@ -1,0 +1,62 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    height: 10vh;
+    padding: 1em;
+    background: white;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: 16px;
+}
+
+.col {
+    flex-basis: auto;
+    padding: 10px;
+    text-align: center;
+}
+
+.control-buttons {
+    align-self: center;
+    margin: auto;
+}
+
+.control-buttons > button {
+    margin: 5px;
+    background-color: white;
+    border: 1px solid #dadce0;
+    box-shadow: none;
+}
+
+.control-buttons > button:hover {
+    box-shadow: 0 1px 3px 0 rgb(60 64 67 / 30%), 0 4px 8px 3px rgb(60 64 67 / 15%);
+    -webkit-mask-image: none;
+    transition: none;
+}
+
+
+.invite-url-box > .MuiFormLabel-root.Mui-disabled {
+    color: green;
+    font-weight: 600;
+}
+
+.phone-invite .MuiInputLabel-formControl {
+    top: -10px;
+}
+
+.phone-invite .MuiOutlinedInput-root {
+    height: 42px; 
+}
+
+.invite-button {
+    margin: 0 16px !important;
+}
+
+.invite-url-box {
+    display: flex !important;
+}

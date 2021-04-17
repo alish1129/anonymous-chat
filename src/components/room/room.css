@@ -1,0 +1,9 @@
+.room {
+    background: radial-gradient(farthest-side ellipse at 10% 0,#333867 20%,#17193b) !important;
+    height: 90vh;
+    padding: 0 !important;
+}
+
+.video-row {
+    height: 100%;
+}

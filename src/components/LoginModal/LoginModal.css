@@ -1,17 +1,18 @@
 video {
-    width: 40vw !important;
     margin: auto;
     display: block;
+    width: 60vw;
 }
 
 .main {
     position: relative;
-    background-color: #111111;
-    min-height: 100vh;
+    background: radial-gradient(farthest-side ellipse at 10% 0,#333867 20%,#17193b) !important;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     padding: 20px;
-  }
+    color: white !important;
+}
 
 
 .form-options {
@@ -37,7 +38,8 @@ video {
 }
 
 .login-container {
-    background-color: #303030;
+    /* background-color: #333867 !important; */
+    color: #fff;
     padding: 30px;
     margin: auto;
     vertical-align: middle;
@@ -53,6 +55,14 @@ video {
 .muted-mic {
     color: red;
 }
+
+/* .MuiInputLabel-animated {
+    color: white !important;
+}
+
+label.MuiFormLabel-root.Mui-focused, .MuiInputBase-input {
+    color: white !important;
+} */
 
 .unmuted-mic {
     color: green

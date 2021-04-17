@@ -1,0 +1,20 @@
+  .participant-name {
+    position: fixed;
+    padding: 10px;
+    color: wheat;
+    /* width: 100%; */
+    background: rgba(0,0,0, 0.2);
+    margin: auto;
+  }
+
+  .video {
+      margin: auto 0 !important;
+      height: 100% !important;
+      width: 100% !important;
+  }
+
+  .participant-video-container {
+    margin: auto;
+    vertical-align: middle;
+    display: table-cell;
+  }
